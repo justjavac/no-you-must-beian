@@ -23,3 +23,7 @@ hello.c:4:12: error: 不得使用 printf 输出未备案字符串
 $ cd  
 不得进入未备案的目录: /home/justjavac
 ```
+
+### License
+
+内容来自网友、群友、推友的分享，如有侵权请联系我删除。
