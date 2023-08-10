@@ -16,6 +16,10 @@ export const commands: Record<string, Command> = {
     help: "Change the shell working directory.",
     args: ["/home/justjavac"]
   },
+  rm: {
+    command: [`${c.yellow("🎉 恭喜你，所有没有备案的目录都已经全部删除")}`,],
+    help: "remove directory entries.",
+  },
   gcc: {
     command: [
       `$1:4:12: ${c.red("error")}: 不得使用 printf 输出未备案字符串`,
