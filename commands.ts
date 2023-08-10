@@ -52,7 +52,7 @@ export const commands: Record<string, Command> = {
       `               ~~~~~~`,
       `Found 1 error in $1:43`,
     ],
-    help: "The TypeScript Compilere",
+    help: "The TypeScript Compiler.",
     args: ["index.ts"]
   },
 };
