@@ -1,12 +1,10 @@
 {
-  "name": "no-you-must-beian",
-  "version": "0.1.0",
+  "name": "unbeianed",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
     "@types/node": "20.4.9",
