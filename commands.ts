@@ -26,12 +26,12 @@ export const commands: Record<string, Command> = {
       `npm ${c.red("ERR!")} ${c.cyan("250")} GET https://registry.npmjs.org/$2`,
       `npm ${c.red("ERR!")} ${c.cyan("250")}`,
       `npm ${c.red("ERR!")} ${c.cyan("250")}`,
-      `npm ${c.red("ERR!")} ${c.cyan("250")} 不得安装未备案的包 $2@*`,
+      `npm ${c.red("ERR!")} ${c.cyan("250")} ${c.red("不得安装未备案的包 `$2@*`")}`,
       ``,
       `npm ${c.red("ERR!")} A complete log of this run can be found in: /Users/justjavac/.npm/_logs/unbeianed.log`,
     ],
     help: "add the <foo> dependency to your project.",
-    args: ["foo"]
+    args: ['', "foo"]
   },
   gcc: {
     command: [
