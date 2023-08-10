@@ -118,6 +118,7 @@ export default function Term() {
           )
         }                       │`,
         " │                                                                            │",
+        ` │  ${c.underline(c.blue("https://github.com/justjavac/no-you-must-beian"))}                            │`,
         " └────────────────────────────────────────────────────────────────────────────┘",
         "",
       ].join("\n\r"),
