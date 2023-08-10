@@ -35,6 +35,19 @@ index.ts:43:7 - error TS2322: 不能使用未备案的类型 'string'.
 Found 1 error in index.ts:43
 ```
 
+### npm
+
+```bash
+$ npm i react
+npm ERR! code E250
+npm ERR! 250 GET https://registry.npmjs.org/react
+npm ERR! 250
+npm ERR! 250
+npm ERR! 250 不得安装未备案的包 react@*
+
+npm ERR! A complete log of this run can be found in: /Users/justjavac/.npm/_logs/unbeianed.log
+```
+
 ### License
 
 内容来自网友、群友、推友的分享，如有侵权请联系我删除。
