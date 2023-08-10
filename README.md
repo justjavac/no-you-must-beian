@@ -24,6 +24,17 @@ $ cd
 不得进入未备案的目录: /home/justjavac
 ```
 
+### tsc
+
+```bash
+$ tsc
+index.ts:43:7 - error TS2322: 不能使用未备案的类型 'string'.
+
+43  const str: string = "hello world";
+               ~~~~~~
+Found 1 error in index.ts:43
+```
+
 ### License
 
 内容来自网友、群友、推友的分享，如有侵权请联系我删除。

@@ -27,4 +27,18 @@ export const commands: Record<string, Command> = {
     help: "GNU project C and C++ compile",
     args: ["unnamed.c"]
   },
+  tsc: {
+    command: [
+      `${c.cyan("$1")}:${c.yellow("43:7")} - ${c.red("error")} TS2322: 不能使用未备案的类型 'string'.`,
+      "",
+      `${c.bgCyan("43")}  const str: string = "hello world";`,
+      `               ~~~~~~`,
+      `Found 1 error in $1:43`,
+    ],
+    help: "The TypeScript Compilere",
+    args: ["index.ts"]
+  },
 };
+
+const str: string = "hello world";
+
