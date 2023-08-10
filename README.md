@@ -17,6 +17,8 @@ hello.c:4:12: error: 不得使用 printf 输出未备案字符串
 1 error generated.
 ```
 
+### cd
+
 ```bash
 $ cd  
 不得进入未备案的目录: /home/justjavac
